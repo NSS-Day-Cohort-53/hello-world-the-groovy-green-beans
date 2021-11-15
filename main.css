@@ -24,6 +24,14 @@ main {
     justify-content: space-around;
 }
 
+.country__image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 24px;
+}
+
 .lists {
     display: flex;
     justify-content: space-evenly;
