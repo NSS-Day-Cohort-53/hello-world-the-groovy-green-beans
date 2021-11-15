@@ -1,22 +1,45 @@
 header {
     display: flex;
-    border: 1px solid black;
-    font-size: 20px;
-
-}
+  }
 
 main {
     display: flex;
-    border: 1px solid black;
-
+    flex-direction: column;
 }
 
-.content {
-    border: 1px solid black;
-
-
+.navbar {
+    display: flex;
+    justify-content: space-around;
 }
 
-.footer {
-    border: 1px solid black;
+.navbar__header {
+    display: flex;
+}
+
+.location {
+    flex: 4;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lists__cities {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lists__landmarks {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lists__citizens {
+    display: flex;
+    flex-direction: column;
 }
