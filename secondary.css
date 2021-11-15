@@ -1,0 +1,43 @@
+body {
+    background-color: lightgray;
+}
+
+header {
+    border: 3px solid white;
+    font-size: 20px;
+    background-color: navy;
+    color: white;
+}
+
+main {
+}
+
+.content {
+    
+}
+
+.lists__cities {
+    border: 3px solid white;
+    padding: 5px;
+    background-color: navy;
+    color: white;
+}
+
+.lists__landmarks {
+    border: 3px solid white;
+    padding: 5px;
+    background-color: navy;
+    color: white;
+}
+
+.lists__citizens {
+    border: 3px solid white;
+    padding: 5px;
+    background-color: navy;
+    color: white;
+}
+
+.footer {
+    
+}
+
