@@ -1,26 +1,19 @@
-@import url(secondary.css);
 header {
     display: flex;
-}
-
-
+  }
 
 main {
     display: flex;
     flex-direction: column;
-    
 }
 
 .navbar {
     display: flex;
     justify-content: space-around;
-
 }
 
 .navbar__header {
     display: flex;
-
-
 }
 
 .location {
@@ -29,16 +22,24 @@ main {
     justify-content: space-around;
 }
 
-.content {
-    
-
-}
-
 .lists {
     display: flex;
     justify-content: space-evenly;
 }
 
-.footer {
+.lists__cities {
+    display: flex;
+    flex-direction: column;
+    
+}
 
+.lists__landmarks {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lists__citizens {
+    display: flex;
+    flex-direction: column;
 }
